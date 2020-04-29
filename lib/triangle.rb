@@ -15,7 +15,7 @@ class Triangle
       side_a == side_b && > side_c
       puts isosceles
     else
-      side_a && side_b == side_c
+      side_a == side_b && side_a == side_c
       puts equliateral
     end
 
