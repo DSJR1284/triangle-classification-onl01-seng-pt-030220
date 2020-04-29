@@ -10,13 +10,13 @@ class Triangle
 
   def kind()
     if @side_a > @side_b && @side_a > @side_c
-      puts scalene
+      scalene
     elsif
       @side_a == @side_b && @side_a > @side_c
-      puts isosceles
+      isosceles
     else
       @side_a == @side_b && @side_a == @side_c
-      puts equliateral
+      equliateral
     end
 
   end
