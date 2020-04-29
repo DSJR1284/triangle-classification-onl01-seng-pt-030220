@@ -16,7 +16,7 @@ class Triangle
       :isosceles
     else
       @side_a == @side_b && @side_a == @side_c
-      :equliateral
+      :equilateral
     end
 
   end
